@@ -11,7 +11,8 @@ package-mode = false
 python = "^3.10"
 myst-parser = "^4.0.0"
 sphinx = "^8.1.3"
-sphinx-blue-robotics-theme = "^0.0.1"
+# sphinx-blue-robotics-theme = { version = "^0.0.1", extras = ["extras", "python", "cpp", "lua"] }
+sphinx-blue-robotics-theme = { version = "^0.0.1", extras = ["extras"] }
 
 [tool.poetry.dev-dependencies]
 pytest = "^8.3.2"

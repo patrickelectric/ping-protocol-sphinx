@@ -32,7 +32,8 @@ extensions = [
     "sphinx.ext.viewcode",
     "myst_parser",
     "sphinx_blue_robotics_theme",
-    # "sphinx_blue_robotics_theme.extensions.extras",
+    "sphinx_blue_robotics_theme.extensions.extras",
+    # optional extensions
     # "sphinx_blue_robotics_theme.extensions.python",
     # "sphinx_blue_robotics_theme.extensions.cpp",
     # "sphinx_blue_robotics_theme.extensions.lua",
@@ -109,6 +110,8 @@ html_context = {
 
 # Myst Parser options
 myst_enable_extensions = ["substitution", "colon_fence"]
+
+# Optional extensions
 
 # Autodoc configuration (Python documentation)
 # autodoc2_packages = [
